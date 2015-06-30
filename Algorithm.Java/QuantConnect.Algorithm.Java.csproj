@@ -174,7 +174,7 @@
 		build
 	</PostBuildEvent>
     <PostBuildEvent Condition=" '$(OS)' != 'Windows_NT' ">
-		chmod 755 build.sh & ./build.sh
+		./build.sh
 	</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
